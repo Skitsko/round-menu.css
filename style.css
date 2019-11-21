@@ -1,0 +1,104 @@
+body{
+    background-color: #494949;
+    padding: 200px;
+}
+.round-menu{
+    width: 400px;
+    height: 400px;
+    background-color: #777777;
+    position: relative;
+    border-radius: 200px;
+    overflow: hidden;
+    box-shadow: inset 3px 3px 10px 1px #222 ;
+}
+.round-menu a{
+    color: white;
+    transform:skew(-45deg);
+    display: block;
+    width: inherit;
+    height: inherit;
+}
+.round-menu li{
+    border: 1px solid #999;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    transform-origin: 0 0;
+    overflow:hidden;
+    top: 200px;
+    left: 200px;
+    text-shadow: 1px 3px 10px  #222;
+}
+.round-menu li:hover{
+    background-color: #999;
+}
+.round-menu li:nth-child(1){
+    transform: rotate(157.5deg) skew(45deg);
+}
+.round-menu li:nth-child(2){
+    transform: rotate(202.5deg) skew(45deg);
+}
+.round-menu li:nth-child(3){
+    transform: rotate(247.5deg) skew(45deg);
+}
+.round-menu li:nth-child(4){
+    transform: rotate(292.5deg) skew(45deg);
+}
+.round-menu li:nth-child(5){
+    transform: rotate(337.5deg) skew(45deg);
+}
+.round-menu li:nth-child(6){
+    transform: rotate(382.5deg) skew(45deg);
+}
+.round-menu li:nth-child(7){
+    transform: rotate(427.5deg) skew(45deg);
+}
+.round-menu li:nth-child(8){
+    transform: rotate(472.5deg) skew(45deg);
+}
+.round-menu i{
+    transform: translateX(-60px) translateY(52px);
+    
+}
+
+
+.round-menu li:nth-child(9){
+    background-color: antiquewhite;
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    border: 1px solid #fff;
+    top:70px;
+    left: 70px;
+    box-shadow: 3px 3px 20px 1px #222;
+    
+}
+.first{
+    background-color: cadetblue;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    color: rgb(22, 96, 99);
+    text-align:center;
+    border-radius: 4px;
+    font-size: 23px;
+    top: 250px;
+    left: 240px;
+    box-shadow: 3px 3px 10px 1px #222;
+
+
+}
+.second{
+    background-color: rgb(255, 245, 112);
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    color: rgb(143, 138, 64);
+    text-align:center;
+    border-radius: 4px;
+    font-size: 23px;
+    top: 250px;
+    left: 530px;
+    box-shadow: 3px 3px 10px 1px #222;
+}
+
